@@ -348,7 +348,7 @@ body {
 @media (max-width: 600px) {
   .flex-container {
     flex-direction: column;
-    
+    min-height: max-content;
   }
 }
 
@@ -358,7 +358,7 @@ body {
     grid-template-columns: 1fr;
   }
 }
-@media (max-width: autofill) {
+@media (max-width: 640px) {
   .example-chip {
     padding: 0.3rem 0.6rem;
     font-size: 0.7rem;
