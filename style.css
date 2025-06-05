@@ -27,7 +27,7 @@
 }
 
 body {
-  min-height: 100vh;
+  
   color:var(--text-color);
   background-color: var(--base-color);
 }
