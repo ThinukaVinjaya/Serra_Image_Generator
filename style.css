@@ -344,6 +344,13 @@ body {
     min-height: max-content;
   }
 }
+.settings-container .thinuka{
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+  
+} 
+
 @media (max-width: 640px) {
   .output {
     grid-template-columns: 1fr;
@@ -364,8 +371,4 @@ body {
   }
 }
 
-.settings-container .thinuka{
-  padding: 10px;
-  align-items: center;
-  text-align: center;
-}  
+ 
