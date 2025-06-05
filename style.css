@@ -337,19 +337,21 @@ body {
   transform: scale(1.1);
 }
 
-/* Media queries for responsive design */
-@media (max-width: 800px) {
-  .flex-container {
-    flex-direction: column;
-    min-height: max-content;
-  }
-}
 .settings-container .thinuka{
   padding: 10px;
   align-items: center;
   text-align: center;
 
 }
+
+/* Media queries for responsive design */
+@media (max-width: 600px) {
+  .flex-container {
+    flex-direction: column;
+    
+  }
+}
+
 
 @media (max-width: 640px) {
   .output {
