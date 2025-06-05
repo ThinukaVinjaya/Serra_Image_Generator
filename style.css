@@ -370,6 +370,7 @@ body {
 
   .flex-container {
     padding: 1.25rem;
+    height: auto;
   }
 }
 
