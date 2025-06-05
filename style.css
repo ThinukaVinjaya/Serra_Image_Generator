@@ -358,7 +358,7 @@ body {
     grid-template-columns: 1fr;
   }
 }
-@media (max-width: 480px) {
+/*@media (max-width: 480px) {
   .example-chip {
     padding: 0.3rem 0.6rem;
     font-size: 0.7rem;
@@ -371,6 +371,6 @@ body {
   .flex-container {
     padding: 1.25rem;
   }
-}
+}*/
 
  
