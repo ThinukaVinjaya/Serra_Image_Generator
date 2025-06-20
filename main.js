@@ -1,4 +1,4 @@
-const API_KEY = "AIzaSyBJRH088Lh6g66IYq4rpOTsyMEsK5KwVLI";
+const API_KEY =process.env.API_KEY
 const ENDPOINT = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-preview-image-generation:generateContent?key=${API_KEY}`;
 
 // Inject Example prompts to input box
